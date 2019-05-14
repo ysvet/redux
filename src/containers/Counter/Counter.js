@@ -45,4 +45,4 @@ const mapStateToProps = state => {
     };
 };
 
-export default Counter;
+export default connect(mapStateToProps)(Counter);
